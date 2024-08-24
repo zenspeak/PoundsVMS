@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif; 
+}
+#counter {
+  font-size: 500px;
+  color: #333;
+}
+#message {
+  font-size: 24px;
+  color: #666;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+.left {
+  text-align: center;
+}
+.right {
+  text-align: center;
+  flex-basis: 50%;
+}
+heading {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+h2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  color: #333333;
+}
