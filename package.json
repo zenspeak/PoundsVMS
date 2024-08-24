@@ -1,31 +1,23 @@
 {
-  "name": "glitch-hello-node",
+  "name": "restaurant-backend",
   "version": "0.1.0",
-  "description": "A simple Node app built on fastify, instantly up and running. Built to be remixed on Glitch.com.",
-  "main": "server.js",
+  "description": "A simple Node app for restaurant management.",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js",
+    "auto-push": "./auto-push.sh"
   },
   "dependencies": {
-    "fastify": "^4.19.2",
-    "handlebars": "^4.7.7",
-    "@fastify/formbody": "^7.4.0",
-    "@fastify/static": "^6.10.2",
-    "@fastify/view": "^8.0.0",
-    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
     "express": "^4.18.2",
-    "sqlite3": "^5.1.6",
-    "body-parser": "^1.20.2"
+    "sqlite3": "^5.1.7"
   },
   "engines": {
     "node": "14.x"
   },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-node"
-  },
   "license": "MIT",
   "keywords": [
     "node",
-    "glitch"
+    "restaurant"
   ]
 }
